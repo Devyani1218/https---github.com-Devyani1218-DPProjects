@@ -1,0 +1,105 @@
+body {
+    /*background-color: #d0d5da;*/
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+
+  }
+  .App {
+    text-align: center;
+  }
+
+  .container{
+    /*background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");*/
+
+  justify-content: center;
+   width: 50%;
+   margin-left: 30%;
+   margin-right: 30%;
+   margin-top:5%;
+   text-align: center;
+   padding-left: 1px;
+   padding-right: 1px;
+   padding-bottom: 50px;
+  }
+  .design{
+    
+    color:white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 3%;
+    text-align: center;
+    padding: 15px;
+ }
+ .maildesign{
+    color:white ; 
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right:27%;
+    text-align: center;
+    padding: 10px;
+ }
+ 
+ .pass{
+    color:white ; 
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right:25%;
+    text-align: center;
+    padding: 5px;
+}
+button{
+    
+    padding: 7px 14px;
+    border-color: #2196F3;
+    background-color: aliceblue;
+    width: 20%;
+    color: rgb(21, 21, 22);
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+button:hover {
+    background: #2196F3;
+    color: white;
+}
+input[type=email] {
+    width: 35%;
+    padding: 7px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 35%;
+    padding: 7px 25px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+}
+.btn{
+   
+    /*background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");*/
+    font-size: medium;
+    margin: 10px 0;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    color: rgb(148, 172, 83);
+    margin-block-end:10%;
+}
+.checkedbox {
+    padding: 5px;
+    margin-right:20%;
+
+    color: white;
+  }
+  .btn1{
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000");
+    margin:10px 0px;
+    color: white;
+   
+  }
+  .nohover{
+    pointer-events: none;
+  }
